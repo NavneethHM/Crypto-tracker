@@ -1,0 +1,124 @@
+
+
+
+
+.hello_test{
+    color: red;
+}
+
+.completeBackground{
+    background-image: url("C:\Users\hmnav\Downloads\rainbow.jpg");
+width: 100%;
+height: 100vh;
+background-size: cover;
+}
+
+.betweenDesign{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    height: 100%;
+    justify-content: center;
+    
+
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .login ,  .loginbutton , .covertbutton {
+         font-size: 10px;
+    }
+  }
+
+
+.leftblur{
+    background-image: url("https://i.pinimg.com/736x/60/6f/cc/606fcc1f9993bb3ebc30ac34da4fa233.jpg");
+    width: 45%;
+    height: 450px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+
+.rightdetiles{
+    background-color: aliceblue;
+    padding: 10px;
+    width: 45%;
+    height: auto;
+    /* height: 380px; */
+    border: 1px solid black;
+    border-radius: 40px;
+
+
+}
+
+
+.right_sign_up_text{
+    font-weight: 700;
+    color: darkblue;
+    padding-left: 20px;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.right_pa1{
+    color: darkblue;
+    padding-left: 20px;
+    width: 250px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.right_pa2{
+    color: darkblue;
+    padding-left: 20px;
+    width: 250px;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+
+
+
+/* .textbox_main{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+    justify-content: space-between;
+} */
+
+/* .textbox_left{
+    
+    width: 100px;
+}
+
+.textbox_right{
+    
+    width: 100px;
+} */
+
+.inside_text{
+    border: 1px solid red;
+    color: aqua;
+    border-radius: 10px;
+    
+}
+
+
+
+.tickbox{
+    
+    font-size: 10px;
+    
+}
+
+.createbutton{
+  
+}

@@ -1,0 +1,157 @@
+
+
+.navBar{
+    background-color: rgb(26 68 26);
+    color: white;
+    justify-content: space-between;
+    
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .login ,  .loginbutton , .covertbutton {
+         font-size: 10px;
+    }
+  }
+
+
+
+.loginbutton{
+    padding: 2px 30px;
+  
+    color: white;
+  
+    background-color:transparent;;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right,  #ffdb58 ,#a234e6);
+    border-image-slice: 1;
+}
+
+.covertbutton{
+    padding: 2px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color:transparent;;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #ffdb58 ,#a234e6);
+    border-image-slice: 1;
+    
+     
+
+
+  
+}
+
+.logo{
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text_onimg{
+  
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    align-items: center;
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 700;
+}
+
+
+
+.remain{
+    background-image: url('https://th.bing.com/th/id/R.4b76a28675196fa63ba249e34914cb9d?rik=Qncirxp1hOLUuw&riu=http%3a%2f%2ftrumpwallpapers.com%2fwp-content%2fuploads%2fIMVU-Backgrounds-Wallpaper-13-1920-x-1080.jpg&ehk=i1CG5vYGCYXToPnuxicsrXsIVuZNqp0JHbVMjrtsgIY%3d&risl=&pid=ImgRaw&r=0');
+    width: 100%;
+    height: 91vh;
+    background-size: cover;
+}
+
+
+.slider{
+// height: 150px;
+margin: auto;
+position: relative;
+width: 90%;
+display: grid;
+place-items: center;
+overflow: hidden;
+}
+
+img{
+    width: 100%;
+    transition: transfrom 1%;
+}
+
+
+img:hover{
+    transform: translateZ(20px);
+}
+
+.logos_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: calc(30px * 10);
+animation: slide 10s  infinite linear;
+
+   
+    
+}
+
+
+
+@keyframes slide{
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logoimgself{
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    perspective: 100px;
+}
+
+
+
+.slider::after,
+.slider::before{
+    content: " ";
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slider::before{
+    left: 0;
+    top: 0;
+}
+
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+
+.listofcrypto{
+    padding: 5px 25px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    background-color: #5a2121;
+    border-radius: 20px;
+}

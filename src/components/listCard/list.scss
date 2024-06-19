@@ -1,0 +1,40 @@
+
+// }
+
+.fullblock{
+    // border: 1px solid red;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 650px) {
+   .header , .fullblock , .bor {
+         
+         
+
+    }
+  }
+
+
+.negetive{
+    color: red;
+}
+.positive{
+    color: green;
+}
+
+.header{
+    font-size: 20px;
+    font-weight: 600    ;
+    padding-left: 27px;
+}
+
+.symbol{
+    color: rgb(228, 70, 35);
+    font-weight: 800;
+}
+
+.date{
+    color: rgb(133, 205, 26);
+    font-weight: 400;
+}

@@ -1,0 +1,59 @@
+
+.full{
+
+}
+
+.text{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+
+@media screen and (max-width: 650px) {
+    .text {
+       /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
+
+
+.helo{
+    display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+}
+
+
+.incard{
+    background-color:rgb(26, 68, 26);
+border: 1px solid red;
+width: 400px;
+text-align: center;
+
+height: auto;
+
+}
+
+.convertbutton{
+    padding: 7px 15px;
+    background-color:transparent;;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #ffdb58 ,#a234e6);
+    border-image-slice: 1;
+color: white;
+font-weight: 600;
+}
+
+.from{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.to{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
