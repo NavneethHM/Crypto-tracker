@@ -15,6 +15,19 @@ function List() {
   const [coinData, setCoinData] = useState([]);
   // console.log(coinData);
   useEffect(() => {
+
+
+
+    const loading = document.querySelector('.loading');
+    const content = document.querySelector('.content');
+    setTimeout(() => {
+      loading.style.opacity = "0";
+      content.style.opacity = "1";
+    }, 1000)
+  
+    
+
+
     const fetchData = async () => {
       const url =
         "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest";
@@ -61,6 +74,14 @@ function List() {
         <div className="header col-sm-6 col-lg-2">30d</div>
         <div className="header col-sm-6 col-lg-2">last updated</div>
       </div>
+      <div class="loading">
+  <div align="center" >Loading...
+  </div>
+</div>
+
+<div class="content">
+ 
+</div>
       {coinData?.data?.map((x) => {
         return (
           // sksa 
