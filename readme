@@ -1,0 +1,56 @@
+1. This is a crypto tracking app 
+2. The structure of the folders arranged 
+
+main page 
+login page 
+converter 
+list of crypto 
+
+divided as 4 components 
+
+3. The main page contains the logo with the animations 
+4. login button  , convert button  in nav bar 
+5. live preview button in the ceneter of main page 
+6. login show the login page to store the information 
+7. convert will convert from one from of currency to other form 
+8. live preview will show the lists of the crypto 
+9. the live preview is connected to the api which is given to disply
+10. the list will display only 30 coins bar that  is limite dby developer(me)
+
+
+
+Technologies Used
+Frontend: HTML, CSS, JavaScript
+API: "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest";
+Libraries/Frameworks: React 
+
+
+ Usage
+Access the Webpage:
+Open your web browser and navigate to http://localhost:3000 (or the appropriate URL if deployed).
+
+Navigate the Application:
+
+Main Page: The homepage features the animated logo and navigation buttons for login, convert, and live preview.
+Login: Click the login button in the navbar to store user information.
+Convert: Click the convert button in the navbar to convert from one form of currency to another.
+Live Preview: Click the live preview button in the center of the main page to view the list of cryptocurrencies.
+Live Preview:
+
+The live preview displays a list of cryptocurrencies connected to the API.
+The list is limited to displaying 30 coins, as set by the developer.
+API Reference
+["https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest";]
+
+Folder Structure
+The project is divided into four main components:
+
+Main Page: Contains the logo with animations and central navigation buttons.
+Login Page: Provides a form to store user information.
+Converter: Facilitates conversion from one currency to another.
+List of Cryptocurrencies: Displays a list of cryptocurrencies fetched from the API.
+
+Git server url : https://github.com/NavneethHM/Crypto-tracker   
+
+Launched using 3rd party web page : 
+
