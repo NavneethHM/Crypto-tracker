@@ -20,7 +20,7 @@ function List() {
         "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest";
       const parameters = {
         start: "1",
-        limit: "10",
+        limit: "30",
         convert: "USD",
       };
       const queryString = new URLSearchParams(parameters).toString();
@@ -63,6 +63,7 @@ function List() {
       </div>
       {coinData?.data?.map((x) => {
         return (
+          // sksa 
           <div className=".container p-3">
             <div className=".container fullblock p-3 my-2">
               <div className="row">
